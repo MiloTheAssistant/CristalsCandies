@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/data/site";
 
 export function Footer() {
@@ -37,9 +38,13 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-br from-candy-pink via-candy-lavender to-candy-mint flex items-center justify-center text-white font-serif font-bold text-sm shadow-md">
-                C
-              </div>
+              <Image
+                src="/logo-icon.svg"
+                alt="Cristal's Candies"
+                width={36}
+                height={36}
+                className="w-9 h-9"
+              />
               <span className="font-serif text-xl font-bold text-warm-white">
                 Cristal&apos;s Candies
               </span>

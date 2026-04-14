@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const navLinks = [
@@ -20,9 +21,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-gradient-to-br from-candy-pink via-candy-lavender to-candy-mint flex items-center justify-center text-white font-serif font-bold text-sm sm:text-lg shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all duration-300">
-              C
-            </div>
+            <Image
+              src="/logo-icon.svg"
+              alt="Cristal's Candies"
+              width={44}
+              height={44}
+              className="w-9 h-9 sm:w-11 sm:h-11 group-hover:scale-105 transition-transform duration-300"
+              priority
+            />
             <div className="flex flex-col">
               <span className="font-serif text-lg sm:text-xl font-bold text-candy-plum leading-tight">
                 Cristal&apos;s Candies
