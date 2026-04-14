@@ -2,9 +2,9 @@ import { products, categories } from "./products";
 
 export const siteConfig = {
   name: "Cristal's Candies",
-  tagline: "Handcrafted hard candies from Rigby, Idaho",
+  tagline: "Handcrafted Hard Candies, Made with Heart",
   description:
-    "Artisan hard candies made with all-natural and organic ingredients. Small-batch, handcrafted in Rigby, Idaho by Cristal's Candies. Shop classic flavors, seasonal specials, gift boxes, and custom orders.",
+    "Small Batch. Big Flavor. Pure Ingredients. Handcrafted hard candies made with heart in Rigby, Idaho by Cristal's Candies. From our kitchen to your sweet tooth — shop classic flavors, seasonal specials, gift boxes, and custom orders.",
   url: "https://cristalscandies.vercel.app",
   ogImage: "/og-image.jpg",
   creator: "Cristal's Candies",

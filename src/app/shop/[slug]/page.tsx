@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { products, getProductBySlug, getRelatedProducts } from "@/data/products";
 import { seoConfig } from "@/data/site";
 import { ProductCard } from "@/components/ProductCard";
@@ -69,22 +70,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
             {/* Image */}
-            <div className="relative aspect-square bg-gradient-to-br from-cotton-candy to-candy-peach rounded-3xl overflow-hidden border-2 border-candy-pink-light/30">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-6">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-gradient-to-br from-candy-pink-light/40 to-candy-lavender-light/40 flex items-center justify-center">
-                    <span className="text-6xl">
-                      {product.category === "classic" ? "🍬" :
-                       product.category === "seasonal" ? "🍁" :
-                       product.category === "gift-boxes" ? "🎁" :
-                       "✨"}
-                    </span>
-                  </div>
-                  <p className="text-sm text-candy-pink/60 font-semibold tracking-wider uppercase">
-                    {product.flavors.join(" · ")}
-                  </p>
-                </div>
-              </div>
+            <div className="relative aspect-square rounded-3xl overflow-hidden border-2 border-candy-pink-light/30">
+              <Image
+                src={product.image}
+                alt={product.name}
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
               {/* Badges */}
               <div className="absolute top-4 left-4 flex flex-col gap-2">
                 {product.bestseller && (

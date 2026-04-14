@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Product } from "@/data/products";
 
 interface ProductCardProps {
@@ -9,22 +10,14 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="group bg-white rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden border border-candy-pink-light/30 hover:border-candy-pink/40 candy-bounce">
       {/* Image */}
-      <div className="relative aspect-square bg-gradient-to-br from-cotton-candy to-candy-peach overflow-hidden">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center p-6">
-            <div className="w-20 h-20 mx-auto mb-3 rounded-full bg-gradient-to-br from-candy-pink-light/50 to-candy-lavender-light/50 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <span className="text-3xl">
-                {product.category === "classic" ? "🍬" :
-                 product.category === "seasonal" ? "🍁" :
-                 product.category === "gift-boxes" ? "🎁" :
-                 "✨"}
-              </span>
-            </div>
-            <p className="text-xs text-candy-pink/60 font-semibold tracking-wider uppercase">
-              {product.flavors.join(" · ")}
-            </p>
-          </div>
-        </div>
+      <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-cotton-candy to-candy-peach">
+        <Image
+          src={product.image}
+          alt={product.name}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        />
         {/* Badges */}
         <div className="absolute top-3 left-3 flex flex-col gap-1.5">
           {product.bestseller && (
