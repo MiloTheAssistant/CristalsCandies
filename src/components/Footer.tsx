@@ -37,18 +37,15 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
+            <Link href="/" className="mb-4 block">
               <Image
-                src="/logo-icon.svg"
+                src="/logo.png"
                 alt="Cristal's Candies"
-                width={36}
-                height={36}
-                className="w-9 h-9"
+                width={140}
+                height={100}
+                className="h-14 w-auto"
               />
-              <span className="font-serif text-xl font-bold text-warm-white">
-                Cristal&apos;s Candies
-              </span>
-            </div>
+            </Link>
             <p className="text-candy-lavender-light/70 text-sm leading-relaxed mb-4">
               Handcrafted artisan hard candies made with all-natural and organic
               ingredients. Small-batch, made with love in Rigby, Idaho 🍬

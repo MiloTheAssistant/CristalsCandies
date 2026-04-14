@@ -20,23 +20,15 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center group">
             <Image
-              src="/logo-icon.svg"
+              src="/logo.png"
               alt="Cristal's Candies"
-              width={44}
-              height={44}
-              className="w-9 h-9 sm:w-11 sm:h-11 group-hover:scale-105 transition-transform duration-300"
+              width={180}
+              height={130}
+              className="h-12 sm:h-16 w-auto group-hover:scale-105 transition-transform duration-300"
               priority
             />
-            <div className="flex flex-col">
-              <span className="font-serif text-lg sm:text-xl font-bold text-candy-plum leading-tight">
-                Cristal&apos;s Candies
-              </span>
-              <span className="text-[10px] sm:text-xs text-candy-pink tracking-widest uppercase leading-none font-semibold">
-                Handcrafted in Idaho ✨
-              </span>
-            </div>
           </Link>
 
           {/* Desktop Nav */}
