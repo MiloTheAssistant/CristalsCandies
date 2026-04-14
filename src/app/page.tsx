@@ -29,7 +29,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/70 backdrop-blur-sm rounded-full border border-candy-pink-light/40 mb-6 shadow-sm">
               <span className="w-2 h-2 rounded-full bg-candy-mint animate-pulse" />
               <span className="text-xs font-semibold text-candy-plum tracking-wider uppercase">
-                Small-batch · Handcrafted · Organic 🍬
+                Handcrafted Hard Candies, Made with Heart 🍬
               </span>
             </div>
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-7xl font-bold text-candy-plum leading-[1.1] mb-6">
@@ -42,9 +42,10 @@ export default function HomePage() {
               <span className="text-2xl sm:text-3xl lg:text-4xl">🍭</span>
             </h1>
             <p className="text-lg sm:text-xl text-charcoal-light/80 max-w-xl mb-8 leading-relaxed">
-              Artisan hard candies made with all-natural and organic ingredients
-              in Rigby, Idaho. Each piece is hand-pulled, hand-wrapped, and made
-              with the kind of care you can taste ✨
+              Small Batch. Big Flavor. Pure Ingredients. Artisan hard candies
+              made with all-natural and organic ingredients in Rigby, Idaho.
+              Each piece is hand-pulled, hand-wrapped, and made with the kind
+              of care you can taste ✨
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -84,8 +85,8 @@ export default function HomePage() {
               },
               {
                 icon: "🧑‍🍳",
-                title: "Small-Batch",
-                desc: "Every candy is hand-pulled and hand-wrapped by our team.",
+                title: "Small Batch, Big Flavor",
+                desc: "Every candy is hand-pulled and hand-wrapped. Pure ingredients, honest craft.",
               },
               {
                 icon: "🚚",
@@ -153,7 +154,7 @@ export default function HomePage() {
                 Our Story ✨
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-warm-white leading-tight mb-6">
-                From a Kitchen in Rigby to Your Doorstep 💜
+                From Our Kitchen in Rigby to Your Sweet Tooth 💜
               </h2>
               <p className="text-candy-lavender-light/70 text-base sm:text-lg leading-relaxed mb-4">
                 Cristal started making hard candies in her home kitchen because

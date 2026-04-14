@@ -65,8 +65,9 @@ export default function ShopClient() {
               Shop Artisan Candies
             </h1>
             <p className="text-lg text-charcoal-light/70 leading-relaxed">
-              Handcrafted hard candies made with all-natural and organic ingredients.
-              From classic flavors to seasonal specials, gift boxes, and custom creations ✨
+              Small Batch. Big Flavor. Pure Ingredients. Handcrafted hard candies
+              made with all-natural and organic ingredients — from classic flavors
+              to seasonal specials, gift boxes, and custom creations ✨
             </p>
           </div>
         </div>

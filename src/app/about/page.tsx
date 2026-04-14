@@ -24,11 +24,11 @@ export default function AboutPage() {
               It <span className="bg-gradient-to-r from-candy-pink to-candy-rose bg-clip-text text-transparent">Should Be</span> 🍬
             </h1>
             <p className="text-lg sm:text-xl text-charcoal-light/80 leading-relaxed">
-              Cristal&apos;s Candies started with a simple question: Why can&apos;t
-              hard candy be made with real ingredients? No artificial colors.
-              No fake flavors. No corn syrup you can&apos;t pronounce. Just sugar,
-              water, and the kind of care that turns a candy into something
-              worth savoring.
+              Handcrafted Hard Candies, Made with Heart. Cristal&apos;s Candies
+              started with a simple question: Why can&apos;t hard candy be made
+              with real ingredients? No artificial colors. No fake flavors.
+              No corn syrup you can&apos;t pronounce. Just sugar, water, and the
+              kind of care that turns a candy into something worth savoring.
             </p>
           </div>
         </div>
@@ -119,13 +119,12 @@ export default function AboutPage() {
             <div className="bg-candy-lavender/10 rounded-3xl p-8 border border-candy-lavender/20 candy-bounce">
               <span className="text-4xl mb-4 block">🤲</span>
               <h3 className="font-serif text-xl font-semibold text-warm-white mb-3">
-                Small-Batch Integrity
+                Small Batch. Big Flavor. Pure Ingredients.
               </h3>
               <p className="text-candy-lavender-light/70 leading-relaxed">
-                Every batch is hand-pulled, hand-cut, and hand-wrapped. We
-                make 120 pieces at a time, not 120,000. That means every candy
-                gets attention, and every customer gets quality that mass
-                production can&apos;t touch.
+                Every batch is hand-pulled, hand-cut, and hand-wrapped. We make
+                120 pieces at a time, not 120,000. Pure ingredients, honest craft,
+                and quality that mass production can&apos;t touch.
               </p>
             </div>
             <div className="bg-candy-lavender/10 rounded-3xl p-8 border border-candy-lavender/20 candy-bounce">
@@ -214,7 +213,7 @@ export default function AboutPage() {
       <section className="py-16 sm:py-24 candy-wash-lavender">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-candy-plum mb-4">
-            Taste the Story 🍬
+            From Our Kitchen in Rigby to Your Sweet Tooth 🍬
           </h2>
           <p className="text-charcoal-light/60 max-w-lg mx-auto mb-8">
             Every candy has one. Shop our collection and discover why real

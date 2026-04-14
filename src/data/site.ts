@@ -29,13 +29,13 @@ export const seoConfig = {
   about: {
     title: "About Cristal's Candies — Our Story | Female-Owned Artisan Candy",
     description:
-      "Learn about Cristal's Candies — a female-owned, small-batch artisan candy company in Rigby, Idaho. Our mission: all-natural, organic, handcrafted hard candies made with love.",
+      "Learn about Cristal's Candies — a female-owned, small-batch artisan candy company in Rigby, Idaho. Handcrafted Hard Candies, Made with Heart. From our kitchen in Rigby to your sweet tooth.",
     keywords: "female-owned candy company, artisan candy Rigby Idaho, organic hard candy, small batch candy maker",
   },
   shop: {
     title: "Shop — Artisan Hard Candies, Gift Boxes & Custom Orders",
     description:
-      "Browse our collection of handcrafted hard candies, seasonal specials, curated gift boxes, and custom candy orders. All natural, organic ingredients. Free shipping on orders over $50.",
+      "Small Batch. Big Flavor. Pure Ingredients. Browse our handcrafted hard candies, seasonal specials, gift boxes, and custom orders. All natural, organic ingredients. Free shipping over $50.",
     keywords: "buy artisan candy online, organic hard candy shop, handmade candy gift box, custom candy order",
   },
   wholesale: {

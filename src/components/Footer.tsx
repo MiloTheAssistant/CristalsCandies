@@ -47,8 +47,8 @@ export function Footer() {
               />
             </Link>
             <p className="text-candy-lavender-light/70 text-sm leading-relaxed mb-4">
-              Handcrafted artisan hard candies made with all-natural and organic
-              ingredients. Small-batch, made with love in Rigby, Idaho 🍬
+              Handcrafted Hard Candies, Made with Heart. Small-batch artisan hard
+              candies made with all-natural and organic ingredients in Rigby, Idaho 🍬
             </p>
             <div className="flex gap-3">
               <a
@@ -120,7 +120,7 @@ export function Footer() {
       <div className="border-t border-candy-lavender/15">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-candy-lavender-light/40">
-            © {new Date().getFullYear()} Cristal&apos;s Candies. Made with 🍬 in Idaho.
+            © {new Date().getFullYear()} Cristal&apos;s Candies. From Our Kitchen in Rigby to Your Sweet Tooth 🍬
           </p>
           <div className="flex gap-6">
             <span className="text-xs text-candy-lavender-light/40">Privacy Policy</span>
